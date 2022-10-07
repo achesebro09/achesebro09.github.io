@@ -1,3 +1,83 @@
+
+/* Navigation */
+.logo {
+    position: absolute;
+    z-index: 1;
+}
+
+.navigation {
+    
+}
+
+a {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 2rem;
+    color: #000;
+}
+
+a:link, a:visited {
+    background-color: #FFF7F6;
+    color: #DA8777;
+    border: 2px solid #DA8777;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:#FFECC4;
+    color: #DA8777;
+  }
+
 ul {
     list-style-type: none;
+    margin: 1rem;
+    padding: 10rem;
+    float: right;
+    
 }
+
+li {
+    display: inline;
+    float: left;
+}
+
+/* Body */
+
+h1 {
+    font-family: Vladimir Script, sans-serif;
+    font-size: 5rem;
+    font-weight: 150;
+    color: #DA8777;
+    text-align: center;
+}
+
+h2 {
+    font-family: Vladimir Script, sans-serif;
+    font-size: 4rem;
+    font-weight: 150;
+    color: #DA8777;
+    text-align: center;
+}
+
+.banner {
+    background-color: #FFECC4;
+}
+
+body {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 1.4rem;
+    color: #000;
+    background-color: #FFF7F6;
+}
+
+dt {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 2rem;
+    color: #000;
+}
+
+
+
+/*  */
