@@ -1,12 +1,8 @@
 
-/* Navigation */
+/* navigation */
 .logo {
     position: absolute;
     z-index: 1;
-}
-
-.navigation {
-    
 }
 
 a {
@@ -33,17 +29,17 @@ a:link, a:visited {
 ul {
     list-style-type: none;
     margin: 1rem;
-    padding: 10rem;
-    float: right;
-    
+    padding: 5rem;
+    align-content: center;
+    margin-left: 30%;    
 }
 
 li {
     display: inline;
-    float: left;
+    align-content: center;
 }
 
-/* Body */
+/* general body */
 
 h1 {
     font-family: Vladimir Script, sans-serif;
@@ -51,6 +47,7 @@ h1 {
     font-weight: 150;
     color: #DA8777;
     text-align: center;
+    
 }
 
 h2 {
@@ -78,6 +75,121 @@ dt {
     color: #000;
 }
 
+/* index */
 
+.gallery1 {
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.gallery2 {
+    display: inline-block;
+}
+
+.gallery3 {
+    display: inline-block;
+}
+
+.gallery4 {
+    display: inline-block;
+}
+
+.gallery5 {
+    display: inline-block;
+}
+
+.desc {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.browse {
+    text-align: center;
+}
+
+/* about */
+
+.about {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+dl {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/* shop */
+
+.alert {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+}
+
+
+
+/* contact form */
+
+.iframe {
+    float: right;
+    margin-right: 25%;
+}
+
+.quote {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+}
+
+.contact {
+    margin-left: 15%;
+}
+
+input[type=text] {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    border: .2rem solid #DA8777;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=email] {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    border: .2rem solid #DA8777;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+textarea[name=message] {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    border: .2rem solid #DA8777;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=submit] {
+    font-family: Baskerville Old Face, sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    border: .2rem solid #DA8777;
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #FFECC4;
+
+}
 
 /*  */
