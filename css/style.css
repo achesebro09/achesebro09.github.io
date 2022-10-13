@@ -4,6 +4,7 @@
 .logo {
     position: absolute;
     z-index: 1;
+    width: 250px;
 }
 
 a {
@@ -12,6 +13,9 @@ a {
     color: #000;
 }
 
+img {
+    max-width: 100%;
+}
 
 a:link, a:visited {
     background-color: #FFF7F6;
@@ -46,20 +50,19 @@ li {
 
 /* media queries */
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .logo {
-        position: absolute;
-        z-index: 1;
+        max-width: 175px;
     } 
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     ul {
         flex-direction: column;
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     h1 {
         font-family: Vladimir Script, sans-serif;
         font-size: 2rem;
@@ -69,9 +72,17 @@ li {
     }
 }
 
-@media screen and (min-width: 480px) {
 
+@media screen and (max-width: 480px) {
+    .idk {
+        border: .2rem solid #DA8777;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+    }
 }
+
+
 
 /* general body */
 
@@ -81,7 +92,6 @@ h1 {
     font-weight: 150;
     color: #DA8777;
     text-align: center;
-    
 }
 
 h2 {
@@ -110,6 +120,10 @@ dt {
 }
 
 /* index */
+
+.gallery {
+    text-align: center;
+}
 
 .gallery1 {
     display: inline-block;
@@ -180,7 +194,7 @@ dl {
     text-align: center;
 }
 
-.contact {
+.idk {
     margin-left: 15%;
 }
 
